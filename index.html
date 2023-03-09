@@ -2,8 +2,45 @@
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
     <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
+    	<style>
+        nav {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: #333;
+          color: #fff;
+          padding: 10px;
+          position: fixed;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          z-index: 999;
+        }
+
+        nav a {
+          color: #fff;
+          text-decoration: none;
+          padding: 10px;
+          border-radius: 5px;
+          margin: 0 10px;
+          transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+          background-color: #fff;
+          color: #333;
+        }
+      </style>
+  
   </head>  
   <body>
+    <nav>
+      <a href="resume.html">Resume</a>
+      <a href="certifications.html">Certifications</a>
+      <a href="projects.html">Projects</a>
+      <a href="others.html">Others</a>
+    </nav>
+    
     <header class="page-header"  
             role="banner">
           <h1 class="project-name">Christian Fonseca</h1>
