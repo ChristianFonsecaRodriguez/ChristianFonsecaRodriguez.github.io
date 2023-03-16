@@ -108,7 +108,7 @@ main {
 
 .profile-photo {
     border-radius: 50%;
-    width: 50%;
+    width: 100%;
     max-width: 200px;
     min-width: 100px;
     height: auto;
