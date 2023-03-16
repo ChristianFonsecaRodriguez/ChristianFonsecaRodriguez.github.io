@@ -84,15 +84,48 @@ nav ul li a.active {
     }
 }
 
-
-/* Estilos para oscurecer el botón al pasar el mouse por encima 
-nav ul li a:hover {
-    background: #555;
+/* Estilos de la sección Resume */
+main {
+    display: flex;
 }
 
-Estilos para cambiar el color del botón de la página actual
-nav ul li a.active {
-    background: #444;
-    font-weight: bold;
+.left-column {
+    background-color: #f0e6d6; /* Color marrón claro */
+    width: 30%;
+    padding: 20px;
+    box-sizing: border-box;
 }
-/*
+
+.right-column {
+    background-color: #ffffff;
+    width: 70%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.profile-photo {
+    width: 100%;
+    height: auto;
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a {
+    display: block;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+
+/* Estilos responsivos para la sección Resume */
+@media screen and (max-width: 600px) {
+    main {
+        flex-direction: column;
+    }
+
+    .left-column,
+    .right-column {
+        width: 100%;
+    }
+}
