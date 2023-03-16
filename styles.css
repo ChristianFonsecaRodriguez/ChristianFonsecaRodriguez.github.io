@@ -118,6 +118,14 @@ main {
     text-align: center;
 }
 
+.right-column hr {
+    border: 0;
+    border-top: 1px solid #000;
+    width: 100%;
+    margin: 20px 0;
+}
+
+
 @media (max-width: 768px) {
     .profile-photo {
         width: 40%;
