@@ -107,7 +107,7 @@ main {
 }
 
 .profile-photo {
-    border-radius: 50%;
+    border-radius: 80%;
     width: 150px;
     height: 150px;
     object-fit: cover;
@@ -120,9 +120,15 @@ main {
 
 .right-column hr {
     border: 0;
-    border-top: 1px solid #000;
+    border-top: 2px solid #000;
     width: 100%;
-    margin: 20px 0;
+}
+
+.right-column h4 {
+    font-size: 14px;
+    font-style: italic;
+    margin-top: 5px;
+    margin-bottom: 15px;
 }
 
 
