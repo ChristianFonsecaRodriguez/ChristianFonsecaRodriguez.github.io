@@ -41,10 +41,10 @@ footer {
     padding: 1rem;
 }
 
-
 /* Estilos para centrar la barra de navegación */
 nav {
-    text-align: center;
+    background-color: #f8f8f8;
+    padding: 10px 0;
 }
 
 nav ul {
@@ -52,24 +52,47 @@ nav ul {
     justify-content: center;
     list-style-type: none;
     padding: 0;
+    margin: 0;
 }
 
 nav ul li {
-    margin-right: 1rem;
+    margin: 0 15px;
 }
 
-/* Último elemento sin margen derecho */
-nav ul li:last-child {
-    margin-right: 0;
+nav ul li a {
+    text-decoration: none;
+    color: #000;
 }
 
-/* Estilos para oscurecer el botón al pasar el mouse por encima */
+nav ul li a:hover {
+    color: #666;
+}
+
+nav ul li a.active {
+    color: #333;
+}
+
+/* Estilos responsivos para la barra de navegación */
+@media screen and (max-width: 600px) {
+    nav ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    nav ul li {
+        margin: 5px;
+    }
+}
+
+
+/* Estilos para oscurecer el botón al pasar el mouse por encima 
 nav ul li a:hover {
     background: #555;
 }
 
-/* Estilos para cambiar el color del botón de la página actual */
+Estilos para cambiar el color del botón de la página actual
 nav ul li a.active {
     background: #444;
     font-weight: bold;
 }
+/*
