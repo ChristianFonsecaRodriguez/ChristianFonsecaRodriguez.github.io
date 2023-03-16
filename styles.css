@@ -141,6 +141,10 @@ main {
     font-style: italic;
 }
 
+.right-column h3 {
+    font-size: 16px;
+}
+
 
 @media (max-width: 768px) {
     .profile-photo {
