@@ -42,9 +42,9 @@ footer {
 }
 
 /* Estilos para centrar la barra de navegación */
+/* Estilos para centrar la barra de navegación */
 nav {
-    background-color: #f8f8f8;
-    padding: 10px 0;
+    text-align: center;
 }
 
 nav ul {
@@ -52,24 +52,15 @@ nav ul {
     justify-content: center;
     list-style-type: none;
     padding: 0;
-    margin: 0;
 }
 
 nav ul li {
-    margin: 0 15px;
+    margin-right: 1rem;
 }
 
-nav ul li a {
-    text-decoration: none;
-    color: #000;
-}
-
-nav ul li a:hover {
-    color: #666;
-}
-
-nav ul li a.active {
-    color: #333;
+/* Último elemento sin margen derecho */
+nav ul li:last-child {
+    margin-right: 0;
 }
 
 /* Estilos responsivos para la barra de navegación */
