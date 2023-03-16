@@ -91,7 +91,7 @@ main {
 .left-column {
     min-height: 100vh;
     background-color: #f0e6d6; /* Color marrón claro */
-    width: 30%;
+    width: 20%;
     padding: 20px;
     box-sizing: border-box;
     display: flex;
@@ -101,7 +101,7 @@ main {
 
 .right-column {
     background-color: #ffffff;
-    width: 70%;
+    width: 80%;
     padding: 20px;
     box-sizing: border-box;
     margin-top:0px;
