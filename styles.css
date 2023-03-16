@@ -94,6 +94,9 @@ main {
     width: 30%;
     padding: 20px;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .right-column {
@@ -104,11 +107,24 @@ main {
 }
 
 .profile-photo {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.left-column h3 {
+    margin: 10px 0;
+}
+
+/*
+.profile-photo {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 80%; /* Ajusta este valor si deseas cambiar el tamaño de la foto */
 }
+*/
 
 .social-links a {
     display: inline-block;
