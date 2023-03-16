@@ -123,3 +123,13 @@ main {
         width: 100%;
     }
 }
+
+.right-column ul {
+    margin: 0;
+    padding: 0;
+}
+
+.right-column li {
+    list-style-type: disc;
+    margin-left: 20px;
+}
