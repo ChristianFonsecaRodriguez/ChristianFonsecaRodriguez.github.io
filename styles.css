@@ -127,6 +127,10 @@ main {
     width: 100%;
 }
 
+.right-column h3 {
+    margin-top: 10px;
+}
+
 .right-column h4 {
     font-size: 14px;
     font-style: italic;
