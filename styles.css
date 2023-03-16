@@ -102,14 +102,15 @@ main {
     height: auto;
 }
 
-.social-links {
-    margin-top: 10px;
+.social-links a {
+    font-size: 24px;
+    color: #000;
+    margin-right: 10px;
+    text-decoration: none;
 }
 
-.social-links a {
-    display: block;
-    margin-bottom: 5px;
-    text-decoration: none;
+.social-links a:hover {
+    color: #666;
 }
 
 /* Estilos responsivos para la sección Resume */
