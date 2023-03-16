@@ -105,7 +105,7 @@ main {
   margin-left: 10%; /* 5% del ancho del viewport */
   margin-right: 10%; /* 5% del ancho del viewport */
   
-  align-items: center;
+  text-align: center;
 }
 
 .left-column h3 {
@@ -116,7 +116,7 @@ main {
 
 .sticky {
     position: sticky;
-    top: 0;
+    top: 10%;
 }
 
 
