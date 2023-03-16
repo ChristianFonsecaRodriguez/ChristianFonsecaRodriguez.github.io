@@ -41,6 +41,26 @@ footer {
     padding: 1rem;
 }
 
+
+/* Estilos para centrar la barra de navegación */
+nav {
+    text-align: center;
+}
+
+nav ul {
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+/* Último elemento sin margen derecho */
+nav ul li:last-child {
+    margin-right: 0;
+}
+
 /* Estilos para oscurecer el botón al pasar el mouse por encima */
 nav ul li a:hover {
     background: #555;
