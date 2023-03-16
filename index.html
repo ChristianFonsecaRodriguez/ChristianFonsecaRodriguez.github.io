@@ -1,20 +1,31 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-  </head>  
-  <body>
-    <iframe src="templates/navigation.html" frameborder="0" scrolling="no" width="100%" height="50"></iframe>
-
-    
-    <header class="page-header"  
-            role="banner">
-          <h1 class="project-name">Christian Fonseca</h1>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu título aquí</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul id="nav-bar">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="certifications.html">Certifications</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="others.html">Others</a></li>
+            </ul>
+        </nav>
     </header>
-    <main id="content" class="main-content" role="main">
-          {{ content }}
-          <footer class="site-footer">
-            &copy; 2023 Christian Fonseca
-          </footer>
+
+    <main>
+        <!-- Aquí va el contenido principal de cada página -->
     </main>
-  </body>
+
+    <footer>
+        <p>&copy; Año - Todos los derechos reservados. Powered by ChatGPT.</p>
+    </footer>
+</body>
 </html>
