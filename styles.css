@@ -115,6 +115,15 @@ main {
 
 .left-column h3 {
     margin: 10px 0;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .profile-photo {
+        width: 40%;
+        max-width: 150px;
+        min-width: 80px;
+    }
 }
 
 /*
