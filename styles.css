@@ -14,9 +14,19 @@ header {
     padding: 1rem;
 }
 
+nav {
+    text-align: center;
+}
+
 nav ul {
     display: flex;
-    list-style: none;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 1rem;
 }
 
 nav ul li a {
@@ -42,21 +52,9 @@ footer {
 }
 
 /* Estilos para centrar la barra de navegación */
-/* Estilos para centrar la barra de navegación */
-nav {
-    text-align: center;
-}
 
-nav ul {
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
-    padding: 0;
-}
 
-nav ul li {
-    margin-right: 1rem;
-}
+
 
 /* Último elemento sin margen derecho */
 nav ul li:last-child {
