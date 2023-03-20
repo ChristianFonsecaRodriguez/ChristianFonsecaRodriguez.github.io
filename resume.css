@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-body{
+.body-links{
   font-family: "Inter", sans-serif;
   line-height: 1.5;
   min-height: 100vh;
