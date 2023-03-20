@@ -16,6 +16,11 @@
   backforung-color: #eee;
 }
 
+.body-profile-pic{
+    width: 100%;
+    height: auto;
+}
+
 .menu{
   padding: 2rem;
   backgorund-color: #fff;
