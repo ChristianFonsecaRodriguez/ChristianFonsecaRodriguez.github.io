@@ -30,8 +30,8 @@
   flex-direction: column;/* delete if we wanto go have an horizontal aligment*/
   justify-content: center;
   align-items: center; /* quitar ete tambien*/
-  border-radius: 20px 20px;
-  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.075);
+  /*border-radius: 20px 20px;*/
+  /*box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.075);*/
 }
 
 .link{
@@ -77,10 +77,10 @@
 
 .link-icon{
   color: var(--color);
-  font-size: 27px !important;
+  font-size: 20px !important;
   display: block;
   flex-shrink: 0;
-  left: 18px;
+  left: 20px;
   position: absolute;
 }
 
