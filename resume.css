@@ -9,7 +9,7 @@
 .body-links{
   font-family: "Inter", sans-serif;
   line-height: 1.5;
-  min-height: 100vh;
+  /*min-height: 100vh;*/
   display: flex;
   align-items: center;
   justify-content: center;
@@ -25,7 +25,7 @@
   padding: 2rem;
   backgorund-color: #fff;
   position: relative;
-  width: 100%; /*130px;*//*calc(130px + 4 * 70px + 4rem);*/
+  width: 130px; /*130px;*//*calc(130px + 4 * 70px + 4rem);*/
   display: flex;
   flex-direction: column;/* delete if we wanto go have an horizontal aligment*/
   justify-content: center;
