@@ -21,8 +21,16 @@
     height: auto;
 }
 
-h4{
+.name{
+    display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.normal-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .menu{
