@@ -31,6 +31,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: normal;
 }
 
 .menu{
@@ -121,14 +122,19 @@
     cursor: pointer;
     justify-content: center;
     align-items: center;
+    
 }
 
 .wsp-link {
     text-decoration: none;
     color: inherit;
+    display: flex; /* Añade esta línea para asegurar que el ícono y el texto estén en la misma línea */
+    align-items: center; 
+    font-size: 14px;
+    font-weight: normal;
 }
 
 .wsp-link:hover {
     color: var(--color); /* Cambia este color según el color deseado al hacer hover */
-    text-shadow: 0 0 5px rgba(37, 211, 102, 0.5); /* Cambia estos valores según la sombra deseada al hacer hover */
+    
 }
