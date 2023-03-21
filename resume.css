@@ -116,7 +116,7 @@
 
 .normal-wsp {
     background-color: inherit; /* Cambia este color según el color de fondo deseado */
-    display: inline-block;
+    display: flex;
     padding: 5px 10px;
     border-radius: 5px;
     cursor: pointer;
