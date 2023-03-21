@@ -134,7 +134,7 @@
     font-weight: normal;
 }
 
-.wsp-link:hover {
+.wsp-link:hover .text-wsp{
     color: var(--color); /* Cambia este color según el color deseado al hacer hover */
     
 }
