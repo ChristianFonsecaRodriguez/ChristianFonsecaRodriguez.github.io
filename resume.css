@@ -107,5 +107,28 @@
 }
 
 
+.fab.fa-whatsapp {
+    margin-right: 5px;
+    color: var(--color); 
+}
 
 
+.normal-wsp {
+    background-color: inherit; /* Cambia este color según el color de fondo deseado */
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+.wsp-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.wsp-link:hover {
+    color: var(--color); /* Cambia este color según el color deseado al hacer hover */
+    text-shadow: 0 0 5px rgba(37, 211, 102, 0.5); /* Cambia estos valores según la sombra deseada al hacer hover */
+}
