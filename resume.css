@@ -21,6 +21,10 @@
     height: auto;
 }
 
+h5{
+    justify-content: center;
+}
+
 .menu{
   padding: 2rem;
   backgorund-color: #fff;
