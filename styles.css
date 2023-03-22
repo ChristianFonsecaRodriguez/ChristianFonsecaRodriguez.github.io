@@ -174,11 +174,6 @@ main {
 }
 
 
-.title-button-cert {
-  display: flex;
-  align-items: center;
-}
-
 
 /*
 .profile-photo {
@@ -335,6 +330,7 @@ main {
 /* Eliminar cuando este construido */
 .construction {
   display: flex;
+  flex:1;
   flex-direction: column;
   justify-content: center;
   align-items: center;
