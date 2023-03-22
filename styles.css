@@ -232,6 +232,7 @@ main {
   display: flex;
   flex-direction: column;
   height: 100vh;
+  margin-bottom: 40px; /* Agrega un margen en la parte inferior */
 }
 
 .container-company {
