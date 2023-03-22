@@ -154,7 +154,6 @@
   color: #fff;
   text-decoration: none;
   background-color: #007bff;
-  border: 1px solid #007bff;
   border-radius: 20px;
   cursor: pointer;
   transition: background-color 0.3s, border-color 0.3s;
@@ -172,4 +171,5 @@
 .title-button-cert {
   display: flex;
   align-items: center;
+  margin-bottom: -10px; /* if someone know how to centrate without hardcode, please commit me.*/
 }
