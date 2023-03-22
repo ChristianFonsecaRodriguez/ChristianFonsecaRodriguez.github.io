@@ -237,7 +237,9 @@ main {
 
 .container-company {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) */
+  /* repeat(3, 1fr); /* Cambia a tres columnas */ */
   grid-gap: 10px;
   padding: 10px;
   flex: 1;
