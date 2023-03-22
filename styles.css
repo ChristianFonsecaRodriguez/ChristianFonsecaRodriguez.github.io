@@ -246,7 +246,6 @@ main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) */
-  /* repeat(3, 1fr); /* Cambia a tres columnas */ */
   grid-gap: 10px;
   padding: 10px;
   flex: 1;
@@ -310,19 +309,19 @@ main {
 
 .overlay span {
   color: white;
-  font-size: 24px;
+  font-size: 14px;
   font-weight: bold;
-  padding: 10px;
+  padding: 5px 30px;
   border: 2px solid rgba(255, 255, 255, 0.7);
   background-color: rgba(128, 128, 128, 0.7);
-  border-radius: 4px;
+  border-radius: 10px;
 }
 
-.item:hover img {
+.item-cert:hover img {
   opacity: 0.5;
 }
 
-.item:hover .overlay {
+.item-cert:hover .overlay {
   opacity: 1;
 }
 
