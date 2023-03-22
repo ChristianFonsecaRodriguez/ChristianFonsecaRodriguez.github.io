@@ -244,8 +244,7 @@ main {
 
 .container-company h2 {
   grid-column: 1 / -1;
-  text-align: center;
-  margin-bottom: 10px;
+  text-align: left;
 }
 
 .container-company hr {
@@ -270,7 +269,7 @@ main {
 }
 
 .item-cert h3 {
-  margin-top: 10px;
+  margin-top: 5px;
   text-align: center;
 }
 
