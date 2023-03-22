@@ -234,6 +234,7 @@ main {
 
 .container-certs {
   display: flex;
+  flex:1;
   flex-direction: column;
   height: 100vh;
   margin-bottom: 40px; /* Agrega un margen en la parte inferior */
