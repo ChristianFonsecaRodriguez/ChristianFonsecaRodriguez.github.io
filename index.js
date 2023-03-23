@@ -12,8 +12,17 @@ function changeBackgroundImage() {
   const imageBackground = document.querySelector('.image-background-land');
 
   if (imageBackground) {
-    imageBackground.style.backgroundImage = `url(${images[currentIndex]})`;
-    currentIndex = (currentIndex + 1) % images.length;
+    // Agrega la clase 'fade-out' para iniciar la animación de difuminado
+    imageBackground.classList.add('fade-out');
+
+    // Cambia la imagen de fondo después de que termine la animación de difuminado
+    setTimeout(() => {
+      imageBackground.style.backgroundImage = `url(${images[currentIndex]})`;
+      currentIndex = (currentIndex + 1) % images.length;
+
+      // Restaura la opacidad después de cambiar la imagen de fondo
+      imageBackground.classList.remove('fade-out');
+    }, 1000); // La duración de la animación de difuminado (1000 ms = 1 s)
   }
 }
 

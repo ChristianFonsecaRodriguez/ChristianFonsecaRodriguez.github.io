@@ -7,7 +7,17 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+    
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
 }
+
+
+.image-background-land.fade-out {
+    opacity: 0;
+}
+
 
 .circle-container-land {
     position: absolute;
