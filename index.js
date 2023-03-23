@@ -1,8 +1,8 @@
 
 const images = [
-  'img/background/black_cat_background_1.jpg',
-  'img/background/black_cat_background_2.jpg',
-  'img/background/black_cat_background_3.jpg',
+  'img/background/black_cat_background_1.png',
+  'img/background/black_cat_background_2.png',
+  'img/background/black_cat_background_3.png',
   // Agrega más imágenes aquí
 ];
 
