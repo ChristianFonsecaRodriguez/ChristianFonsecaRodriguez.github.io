@@ -9,7 +9,7 @@ const images = [
 let currentIndex = 0;
 
 function changeBackgroundImage() {
-  const imageBackground = document.querySelector('.image-background');
+  const imageBackground = document.querySelector('.image-background-land');
 
   if (imageBackground) {
     imageBackground.style.backgroundImage = `url(${images[currentIndex]})`;
