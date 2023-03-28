@@ -96,7 +96,82 @@ main {
 
 
 
+body {
+    background-color: #fff;
+    color: #333;
+    transition: all 0.5s ease;
+  }
+  
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
 
+
+.switch-container{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 2em;
+    height: 1em;
+    caret-color: transparent;
+}
+
+.switch input {
+    display: none;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: grey;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 1em;
+
+    height: 1em;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 0.75em;
+    width: 0.8em;
+    left: 0.1em;
+    bottom: 0.1em;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked + .slider {
+    background-color: #0056b3;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(1em);
+    -ms-transform: translateX(1em);
+    transform: translateX(1em);
+    background-color: white;
+    color: black;
+}
+
+.label-switch {
+    caret-color: transparent;
+}
 
 
 

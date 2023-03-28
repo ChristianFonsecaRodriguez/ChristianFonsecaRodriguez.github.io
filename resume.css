@@ -36,7 +36,7 @@
 
 .menu{
   padding: 2rem;
-  backgorund-color: #fff;
+  /* backgorund-color: #fff; */
   position: relative;
   width: 130px; /*130px;*//*calc(130px + 4 * 70px + 4rem);*/
   display: flex;
@@ -143,7 +143,152 @@
 
 
 
+/* Estilos de la sección Resume */
+main {
+  display: flex;
+}
 
+.left-column {
+  min-height: 100vh;
+  background-color: #f0e6d6; /* Color marrón claro */
+  width: 20%;
+  padding: 20px;
+  box-sizing: border-box;
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  
+  transition: all 0.5s ease;
+}
+
+.left-column-contains{
+margin-top: 10%; /* 5% del alto del viewport */
+margin-bottom: 10%; /* 5% del alto del viewport */
+margin-left: 10%; /* 5% del ancho del viewport */
+margin-right: 10%; /* 5% del ancho del viewport */
+
+text-align: center;
+}
+
+.left-column h3 {
+  font-size: 24px;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.sticky {
+  position: sticky;
+  top: 4%;
+}
+
+
+.profile-photo {
+  border-radius: 50%;
+  width: 100%;
+  max-width: 200px;
+  min-width: 100px;
+  height: auto;
+  object-fit: cover;
+}
+
+
+@media (max-width: 768px) {
+  .profile-photo {
+      width: 40%;
+      max-width: 150px;
+      min-width: 80px;
+  }
+}
+
+
+.right-column {
+  background-color: #fff;
+  width: 80%;
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+  
+  transition: all 0.5s ease;
+}
+
+
+
+.right-column hr {
+  border: 0;
+  border-top: 3px solid #000;
+  width: 100%;
+}
+
+.right-column h2 {
+  margin-top: 10px;
+}
+
+.right-column h3 {
+  margin-top: 10px;
+}
+
+.right-column h4 {
+  font-size: 14px;
+  font-style: italic;
+}
+
+.right-column h5 {
+  font-size: 16px;
+}
+
+
+
+/*
+.profile-photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%; /* Ajusta este valor si deseas cambiar el tamaño de la foto 
+}
+*/
+
+.social-links a {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 24px;
+  color: #333;
+}
+
+.social-links a:hover {
+  color: #666;
+}
+
+/* Estilos responsivos para la sección Resume */
+@media screen and (max-width: 600px) {
+  main {
+      flex-direction: column;
+  }
+
+  .left-column,
+  .right-column {
+      width: 100%;
+  }
+}
+
+
+.right-column ul {
+  margin: 0;
+  padding: 0;
+}
+
+.right-column li {
+  list-style-type: disc;
+  margin-left: 20px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+
+
+
+/* CErtification button */
 
 .custom-button-cert {
   display: inline-block;
@@ -172,4 +317,125 @@
   display: flex;
   align-items: center;
   margin-bottom: -10px; /* if someone know how to centrate without hardcode, please commit me.*/
+}
+
+
+
+
+
+
+
+
+
+
+/* DARK LIGHT SLIDER */
+
+
+body {
+  background-color: #fff;
+  color: #333;
+  transition: all 0.5s ease;
+}
+
+body.dark-mode {
+  background-color: #333;
+  /* color: #fff; */
+}
+
+
+
+.right-column.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+
+
+.right-column.dark-mode hr {
+    border-top: 3px solid #fff;
+      
+}
+
+
+
+
+.left-column.dark-mode {
+  background-color: #4b141e;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.switch-container{
+  height: 100%;
+  width: 100%;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 1em;
+  caret-color: transparent;
+}
+
+.switch input {
+  display: none;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: grey;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 1em;
+
+  height: 1em;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 0.75em;
+  width: 0.8em;
+  left: 0.1em;
+  bottom: 0.1em;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #0056b3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(1em);
+  -ms-transform: translateX(1em);
+  transform: translateX(1em);
+  background-color: white;
+  color: black;
+}
+
+.label-switch {
+  caret-color: transparent;
 }

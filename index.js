@@ -30,3 +30,40 @@ function changeBackgroundImage() {
 // Cambia la imagen de fondo cada 5 segundos (5000 milisegundos)
 setInterval(changeBackgroundImage, 5000);
 
+
+
+
+const switchBtn = document.getElementById('switch');
+const body = document.body;
+
+const label = document.getElementById('label');
+
+switchBtn.addEventListener('change', function() {
+  if(this.checked) {
+    body.classList.add('dark-mode');
+    label.innerHTML = 'Dark Mode';
+  } else {
+    body.classList.remove('dark-mode');
+    label.innerHTML = 'Light Mode';
+  }
+});
+
+
+
+
+
+
+// const switchBtn = document.getElementById('flexSwitchCheckDefault');
+// const bodyEl = document.body;
+
+// const label = document.getElementById('label');
+
+// switchBtn.addEventListener('change', function() {
+//   if(this.checked) {
+//     bodyEl.classList.add('dark-mode');
+//     label.innerHTML = 'Dark Mode';
+//   } else {
+//     bodyEl.classList.remove('dark-mode');
+//     label.innerHTML = 'Light Mode';
+//   }
+// });

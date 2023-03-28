@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
-    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="resume.css">
+    <link rel="stylesheet" href="styles.css">
+    
+    <script src="resume.js" defer></script>
     <script src="main.js" defer></script>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="icon" type="image/png" href="img/icon/icon_32x32.png" sizes="32x32">
@@ -25,7 +27,7 @@
     </header>
 
     <main>
-        <div class="left-column">
+        <div class="left-column" id="leftColumn">
             <div class='left-column-contains sticky'>
                 <div class="body-profile-pic">
                   <img src="img/profile/foto.jpg" alt="Christian" class="profile-photo">
@@ -91,12 +93,23 @@
 
                   </div>
                 </div>
+
+                <div class="switch-container">
+                    <label class="switch">
+                        <input type="checkbox" id="switch">
+                        <span class="slider"></span>
+                      </label>
+                      
+                      <label id="label" class="label-switch">Light Mode</label>
+                  </div>
+
+
             </div>
         </div>
-        <div class="right-column">
+        <div class="right-column" id="rightColumn">
             <section>
                 <h2>Education</h2>
-                <hr> 
+                <hr id="hrTitled"> 
                 <h3>Universidad Nacional de Ingeniería (UNI)</h3>
                 <h4>Lima, Peru | August 2011–December 2015</h4>
                 <p>B.S. in Mechatronics Engineering</p>
@@ -114,7 +127,7 @@
             </section>
             <section>
                 <h2>Work Experience</h2>
-                <hr> 
+                <hr id="hrTitled"> 
                 <div>
                     <h3>BBVA</h3>
                     <h5>Expert Data Scientist</h5>
@@ -192,7 +205,7 @@
             </section>
             <section>
                 <h2>Teaching Experience</h2>
-                <hr> 
+                <hr id="hrTitled"> 
                 <div>
                     <h3>Data Mining Consulting (DMC)</h3>
                     <h4>Lima, Peru | December 2021–Present</h4>
