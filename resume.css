@@ -150,14 +150,14 @@ main {
 
 .left-column {
   min-height: 100vh;
-  background-color: #233f33; /* Color marrón claro */
+  background-color: #f0e6d6; /* Color marrón claro */
   width: 20%;
   padding: 20px;
   box-sizing: border-box;
   display: block;
   flex-direction: column;
   align-items: center;
-
+  
   transition: all 0.5s ease;
 }
 
@@ -360,7 +360,7 @@ body.dark-mode {
 
 
 .left-column.dark-mode {
-  background-color: #4b141e;
+  background-color: #233f33;
   color: #fff;
 }
 
@@ -415,9 +415,9 @@ body.dark-mode {
   position: absolute;
   content: "";
   height: 0.75em;
-  width: 0.8em;
+  width: 0.75em;
   left: 0.1em;
-  bottom: 0.1em;
+  bottom: 0.15em;
   background-color: white;
   -webkit-transition: .4s;
   transition: .4s;
