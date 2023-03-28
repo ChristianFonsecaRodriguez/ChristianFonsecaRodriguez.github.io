@@ -70,7 +70,7 @@ main {
     height: 150px; /* Cambia este valor según prefieras */
     border-radius: 50%;
     overflow: hidden;
-    
+    caret-color: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
