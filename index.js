@@ -9,7 +9,7 @@ const images = [
 let currentIndex = 0;
 
 function changeBackgroundImage() {
-  const imageBackground = document.querySelector('.image-background-land');
+  const imageBackground = document.querySelector('.background-image-land');
 
   if (imageBackground) {
     // Agrega la clase 'fade-out' para iniciar la animación de difuminado
