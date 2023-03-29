@@ -312,13 +312,17 @@ main {
 }
 
 .text-learning {
-  margin-bottom: 10px; /* if someone know how to centrate without hardcode, please commit me.*/
+  
+  align-items: center;
+  justify-content: center
+  /* margin-bottom: 10px; if someone know how to centrate without hardcode, please commit me. */
 }
 
 .title-button-cert {
   display: flex;
   align-items: center;
-  margin-bottom: -10px; /* if someone know how to centrate without hardcode, please commit me.*/
+
+  /* margin-bottom: 10px; if someone know how to centrate without hardcode, please commit me. */
 }
 
 
