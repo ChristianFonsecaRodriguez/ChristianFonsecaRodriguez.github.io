@@ -33,25 +33,49 @@ setInterval(changeBackgroundImage, 5000);
 
 
 
-const switchBtn = document.getElementById('switch');
+// const switchBtn = document.getElementById('switch');
 const body = document.body;
 
-const label = document.getElementById('label');
+// const label = document.getElementById('label');
 
-switchBtn.addEventListener('change', function() {
-  if(this.checked) {
+// switchBtn.addEventListener('change', function() {
+//   if(this.checked) {
+//     body.classList.add('dark-mode');
+//     label.innerHTML = 'Dark Mode';
+//   } else {
+//     body.classList.remove('dark-mode');
+//     label.innerHTML = 'Light Mode';
+//   }
+// });
+
+
+
+const switchBtn2 = document.getElementById('switchBtn');
+const labelBtn = document.getElementById('labelBtn');
+const iconBtn = document.getElementById('iconBtn');
+
+
+
+let toggleOn = true;
+switchBtn2.addEventListener('click', function() {
+  if (toggleOn){
     body.classList.add('dark-mode');
-    label.innerHTML = 'Dark Mode';
+    iconBtn.classList.replace("fa-moon", "fa-sun");
+    labelBtn.innerHTML = 'Light mode';
+    toggleOn = false;
   } else {
     body.classList.remove('dark-mode');
-    label.innerHTML = 'Light Mode';
+    iconBtn.classList.replace("fa-sun", "fa-moon");
+    labelBtn.innerHTML = 'Dark mode';
+    toggleOn = true;
   }
 });
 
 
 
-
-
+// import { incremental } from './main.js';
+// incremental = incremental + 1;
+// console.log(incremental)
 
 // const switchBtn = document.getElementById('flexSwitchCheckDefault');
 // const bodyEl = document.body;

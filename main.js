@@ -15,9 +15,9 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
-
-
-
+// let variable = 0;
+// console.log(incremental)
+// module.exports = incremental;
 
 
 
