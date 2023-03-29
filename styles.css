@@ -17,7 +17,8 @@ footer {
     background: rgb(0, 0, 0);
     color: #fff;
     text-align: center;
-    padding: 1rem;
+    justify-items: center;
+    justify-content: center;
 }
 
 
@@ -28,11 +29,11 @@ body {
     flex-direction: column;
     min-height: 100%;
 }
-
+/* 
 header {
     background: rgb(0, 0, 0);
     padding: 1rem;
-}
+} */
 
 /* navigator */
 
@@ -40,7 +41,12 @@ nav {
     text-align: center;
 }
 
-nav ul {
+nav ul li a:hover {
+    background: #555;
+}
+
+
+/* nav ul {
     display: flex;
     justify-content: center;
     list-style-type: none;
@@ -58,17 +64,12 @@ nav ul li a {
     text-decoration: none;
 }
 
-nav ul li a:hover {
-    background: #555;
-}
-
-
 nav ul li:last-child {
     margin-right: 0;
-}
+} */
 
 /* Estilos responsivos para la barra de navegación */
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
     nav ul {
         flex-direction: row;
         flex-wrap: wrap;
@@ -77,16 +78,46 @@ nav ul li:last-child {
     nav ul li {
         margin: 5px;
     }
+} */
+
+
+
+.text-reset{
+    text-decoration: none;
+}
+
+.text-footer{
+    /* text-align: justify;
+    text-justify: auto; */
+}
+
+
+.social-text{
+    font-size: 18px;
+    justify-content:center;
+    align-items: center;
+    display: flex;
+    height: 100%; 
+    caret-color: transparent;
+    /* text-decoration: none !important;
+    justify-content:center;
+    align-items: center;
+    display: flex;
+    height: 100%;  */
 }
 
 
 
 
+.btn-outline-light{
+    border-radius: 50%;
+}
 
 
-
-
-
+.link-third{
+    justify-content:center;
+    align-items: center;
+}
 
 
 
