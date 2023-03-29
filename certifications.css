@@ -53,6 +53,13 @@
   border-radius: 4px;
 }
 
+.btn_clicked {
+  display: block;
+  text-decoration: none;
+  margin-bottom: 5px;
+  width: 50%; 
+}
+
 
 /* .item-cert a {
   display: block;

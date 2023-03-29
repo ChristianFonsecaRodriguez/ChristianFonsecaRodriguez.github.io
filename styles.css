@@ -98,7 +98,6 @@ nav ul li:last-child {
     align-items: center;
     display: flex;
     height: 100%; 
-    caret-color: transparent;
     /* text-decoration: none !important;
     justify-content:center;
     align-items: center;
