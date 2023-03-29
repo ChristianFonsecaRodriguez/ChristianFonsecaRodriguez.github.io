@@ -49,6 +49,10 @@
   transition: transform 0.2s;
 }
 
+.card {
+  border-radius: 4px;
+}
+
 
 /* .item-cert a {
   display: block;
@@ -73,6 +77,11 @@
 }
 
 .item-cert h3 {
+  margin-top: 5px;
+  text-align: center;
+}
+
+.item-cert h4 {
   margin-top: 5px;
   text-align: center;
 }

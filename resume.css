@@ -189,6 +189,8 @@ main {
   min-width: 100px;
   height: auto;
   object-fit: cover;
+  
+  caret-color: transparent;
 }
 
 
@@ -360,7 +362,7 @@ body.dark-mode {
 
 
 .left-column.dark-mode {
-  background-color: #233f33;
+  background-color: #212121;
   color: #fff;
 }
 
