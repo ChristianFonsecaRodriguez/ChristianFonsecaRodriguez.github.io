@@ -314,7 +314,7 @@ main {
 .text-learning {
   
   align-items: center;
-  justify-content: center
+  justify-content: center;
   /* margin-bottom: 10px; if someone know how to centrate without hardcode, please commit me. */
 }
 
@@ -325,7 +325,11 @@ main {
   /* margin-bottom: 10px; if someone know how to centrate without hardcode, please commit me. */
 }
 
-
+.form-check-input-style {
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
 
 
 
