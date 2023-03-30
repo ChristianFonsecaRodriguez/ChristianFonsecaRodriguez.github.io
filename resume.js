@@ -63,5 +63,4 @@ switchBtn2.addEventListener('click', function() {
     labelBtn.innerHTML = 'Dark mode';
     toggleOn = true;
   }
-  console.log(toggleOn)
 });

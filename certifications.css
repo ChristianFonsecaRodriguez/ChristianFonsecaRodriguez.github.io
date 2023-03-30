@@ -1,4 +1,20 @@
 
+
+body {
+  background-color: #fff;
+  color: #333;
+  transition: all 0.5s ease;
+}
+
+body.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+
+
+
+
 .page-container {
   flex: 1;
   display: flex;
@@ -32,8 +48,8 @@
 .container-company hr {
   grid-column: 1 / -1;
   width: 100%;
-  border: none; /* Eliminar el borde predeterminado */
-  border-top: 1px solid #000; /* Agregar un borde superior delgado */
+  sborder: none; /* Eliminar el borde predeterminado */
+  border-top: 1px solid rgb(0, 0, 0); /* Agregar un borde superior delgado */
   height: 0; /* Establecer la altura en 0 para que solo se muestre el borde superior */
   margin-top: 5px;
 }

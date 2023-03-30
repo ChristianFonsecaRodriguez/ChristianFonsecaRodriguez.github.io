@@ -27,6 +27,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
      
     
+    <script src="certifications.js" defer></script>
     <script src="main.js" defer></script>
     <link rel="icon" type="image/png" href="img/icon/icon_32x32.png" sizes="32x32">
 
@@ -79,6 +80,14 @@
                   </li>
                   </ul>
                   
+                  <ul class="navbar-nav  mb-2 mb-lg-0 d-flex" style="margin-right:5px" id="switchBtn">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" >
+                                <i class="fa-solid fa-moon" id="iconBtn" style="caret-color: transparent;"></i>
+                                <label id="labelBtn" style="margin-left:5px; cursor: pointer;">Dark mode</label>
+                        </a>
+                    </li>
+                </ul>  
                   
                   <form class="d-flex">
                   <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" disabled>
@@ -110,7 +119,7 @@
               <div class="item-cert">
                 <div class="card">
                   <img src="img/cert/udacity/computer_vision_nanodegree_udacity.jpg" class="card-img-top" alt="Computer Vision Nanodegree">
-                  <div class="card-body">
+                  <div class="card-body bg-light text-dark" id="card">
                     <h4 class="card-title">Computer Vision Nanodegree</h4>
                   </div>
                   <div class="overlay">
@@ -125,7 +134,7 @@
               <div class="item-cert">
                 <div class="card">
                   <img src="img/cert/udacity/deep_learning_nanodegree_udacity.jpg" class="card-img-top" alt="Deep Learning Nanodegree">
-                  <div class="card-body">
+                  <div class="card-body bg-light text-dark" id="card">
                     <h4 class="card-title">Deep Learning Nanodegree</h4>
                   </div>
                   <div class="overlay">
@@ -141,37 +150,44 @@
               <h2>Coursera</h2>
               <hr>
               <div class="item-cert">
-                <a>
-                  <img src="img/cert/coursera/deep_learning_specialization_coursera.jpg" alt="Deep Learning Specialization">
+                <div class="card">
+                  <img src="img/cert/coursera/deep_learning_specialization_coursera.jpg" class="card-img-top" alt="Deep Learning Specialization">
+                  <div class="card-body bg-light text-dark" id="card">
+                    <h4 class="card-title">Deep Learning Specialization</h4>
+                  </div>
                   <div class="overlay">
                     <a class='btn btn-primary btn_clicked' href="https://www.coursera.org/account/accomplishments/specialization/certificate/Z93RXHBLYBT5" target="_blank" role="button"><i class="fa-solid fa-globe" ></i> Browse</a>
                     <a class='btn btn-primary btn_clicked' href="pdf/cert/coursera/deep_learning_specialization_coursera.pdf" target="_blank" role="button" ><i class="fa-solid fa-eye" aria-hidden="true"></i> View</a>  
                     <a class='btn btn-primary btn_clicked' href="pdf/cert/coursera/deep_learning_specialization_coursera.pdf" target="_blank" role="button" download><i class="fa-solid fa-download" aria-hidden="true"></i> Download</a>  
                   </div>
-                </a>
-                <h4>Deep Learning Specialization</h4>
+                </div>
               </div>
+
               <div class="item-cert">
-                <a>
+                <div class="card">
                   <img src="img/cert/coursera/math_machine_learning_specialization_coursera.jpg" alt="Mathematics for Machine Learning Specialization">
+                  <div class="card-body bg-light text-dark" id="card">
+                    <h4 class="card-title">Mathematics for Machine Learning Specialization</h4>
+                  </div>
                   <div class="overlay">
                     <a class='btn btn-primary btn_clicked' href="https://www.coursera.org/account/accomplishments/specialization/certificate/HQMWPLGE7QBR" target="_blank" role="button"><i class="fa-solid fa-globe" ></i> Browse</a>
                     <a class='btn btn-primary btn_clicked' href="pdf/cert/coursera/math_machine_learning_specialization_coursera.pdf" target="_blank" role="button"><i class="fa-solid fa-eye" aria-hidden="true"></i> View</a>  
                     <a class='btn btn-primary btn_clicked' href="pdf/cert/coursera/math_machine_learning_specialization_coursera.pdf" target="_blank" role="button" download><i class="fa-solid fa-download" aria-hidden="true"></i> Download</a>  
                   </div>
-                </a>
-                <h4>Mathematics for Machine Learning Specialization</h4>
+                </div>
               </div>
               <div class="item-cert">
-                <a>
+                <div class="card">
                   <img src="img/cert/coursera/tensorflow_data_deplot_specialization_coursera.jpg" alt="Tensorflow: Data & Deployment Specialization">
+                  <div class="card-body bg-light text-dark" id="card">
+                    <h4 class="card-title">Tensorflow: Data & Deployment Specialization</h4>
+                  </div>
                   <div class="overlay">
                     <a class='btn btn-primary btn_clicked' href="https://www.coursera.org/account/accomplishments/specialization/certificate/QB2MDC5SE6D3" target="_blank" role="button"><i class="fa-solid fa-globe" ></i> Browse</a>
                     <a class='btn btn-primary btn_clicked' href="pdf/cert/coursera/tensorflow_data_deplot_specialization_coursera.pdf" target="_blank" role="button"><i class="fa-solid fa-eye" aria-hidden="true"></i> View</a>  
                     <a class='btn btn-primary btn_clicked' href="pdf/cert/coursera/tensorflow_data_deplot_specialization_coursera.pdf" target="_blank" role="button" download><i class="fa-solid fa-download" aria-hidden="true"></i> Download</a>  
                   </div>
-                </a>
-                <h4>Tensorflow: Data & Deployment Specialization</h4>
+                </div>
               </div>
             </div>
           </div>
